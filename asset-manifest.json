@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/did-basics-react-app/static/js/main.460d0329.chunk.js",
-    "main.js.map": "/did-basics-react-app/static/js/main.460d0329.chunk.js.map",
+    "main.js": "/did-basics-react-app/static/js/main.db9c54ac.chunk.js",
+    "main.js.map": "/did-basics-react-app/static/js/main.db9c54ac.chunk.js.map",
     "runtime-main.js": "/did-basics-react-app/static/js/runtime-main.b14c7907.js",
     "runtime-main.js.map": "/did-basics-react-app/static/js/runtime-main.b14c7907.js.map",
     "static/js/2.21430422.chunk.js": "/did-basics-react-app/static/js/2.21430422.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.b14c7907.js",
     "static/js/2.21430422.chunk.js",
-    "static/js/main.460d0329.chunk.js"
+    "static/js/main.db9c54ac.chunk.js"
   ]
 }
