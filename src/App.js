@@ -74,10 +74,13 @@ function App() {
 
   return (
     <div className="App">
+      <p>Enter your name and Profile Image URL below</p> <br /><br />
       <input placeholder="Name" onChange={e => setName(e.target.value)} />
-      <input placeholder="Profile Image" onChange={e => setImage(e.target.value)} />
+      <input placeholder="Profile Image URL" onChange={e => setImage(e.target.value)} />
+      <br />
       <button onClick={updateProfile}>Set Profile</button>
       <button onClick={readProfile}>Read Profile</button>
+      <br />
 
       { name && <h3>{name}</h3> }
       { image && <img style={{ width: '400px' }} src={image} /> }
