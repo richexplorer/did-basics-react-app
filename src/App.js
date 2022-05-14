@@ -74,10 +74,10 @@ function App() {
 
   return (
     <div className="App">
-      <p>Enter your name and Profile Image URL below</p> <br /><br />
+      <p>Enter your name and Profile Image URL below</p> <br />
       <input placeholder="Name" onChange={e => setName(e.target.value)} />
       <input placeholder="Profile Image URL" onChange={e => setImage(e.target.value)} />
-      <br />
+      <br /><br />
       <button onClick={updateProfile}>Set Profile</button>
       <button onClick={readProfile}>Read Profile</button>
       <br />
